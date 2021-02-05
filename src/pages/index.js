@@ -57,7 +57,7 @@ const IndexPage = () => (
             <div className="featured-text text-center text-lg-left">
               <h4>React JS To Do List</h4>
               <p className="text-black-50 mb-0">
-                A to do list front-end application built using the React JS framework
+                A to-do list front-end application built using the React JS framework
               </p>
             </div>
           </div>

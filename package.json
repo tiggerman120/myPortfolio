@@ -1,12 +1,16 @@
 {
-  "name": "gatsby-starter-grayscale",
+  "name": "My Portfolio",
   "version": "0.0.1",
-  "description": "Gatsby.js V2 starter template based on Grayscale by startbootstrap",
+  "description": "portfolio page utilizing a template: Gatsby.js V2 starter template based on Grayscale by startbootstrap",
   "repository": {
     "type": "git",
     "url": "git+https://github.com/anubhavsrivastava/gatsby-starter-grayscale.git"
   },
   "author": {
+    "name": "Garrett Cintron",
+    "email": "grrttcintron@gmail.com"
+  },
+  "template-author": {
     "name": "Anubhav Srivastava",
     "email": "anubhav.srivastava00@gmail.com"
   },
@@ -39,6 +43,8 @@
     "rimraf": "^3.0.2"
   },
   "keywords": [
+    "garrett",
+    "garrett cintron",
     "gatsby",
     "gatsby-starter",
     "gatsby-starter-grayscale"
@@ -47,5 +53,5 @@
   "bugs": {
     "url": "https://github.com/anubhavsrivastava/gatsby-starter-grayscale/issues"
   },
-  "homepage": "https://github.com/anubhavsrivastava/gatsby-starter-grayscale#readme"
+  "homepage": "https://github.com/tiggerman120"
 }

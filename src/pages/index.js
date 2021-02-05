@@ -9,10 +9,8 @@ import SocialLinks from '../components/SocialLinks';
 import Subscribe from '../components/Subscribe';
 import Header from '../components/Header';
 
-import ipad from '../assets/images/ipad.png';
-import demoImage1 from '../assets/images/demo-image-01.jpg';
 import demoImage2 from '../assets/images/demo-image-02.jpg';
-import bgMaster from '../assets/images/bg-masthead.jpg';
+
 
 const IndexPage = () => (
   <Layout>
@@ -38,18 +36,13 @@ const IndexPage = () => (
       <div className="container">
         <div className="row">
           <div className="col-lg-8 mx-auto">
-            <h2 className="text-white mb-4">Built with Bootstrap 4</h2>
+            <h2 className="text-white mb-4">Software Engineer</h2>
             <p className="text-white-50">
-              Grayscale is a free Bootstrap theme created by Start Bootstrap. It
-              can be yours right now, simply download the starter on
-              <a href="https://github.com/anubhavsrivastava/gatsby-starter-grayscale">
-                the github repo
-              </a>
-              .
+              Software Developer, Certified Nurse Assistant, 
             </p>
           </div>
         </div>
-        <img src={ipad} className="img-fluid" alt="" />
+        
       </div>
     </section>
 
@@ -57,15 +50,14 @@ const IndexPage = () => (
       <div className="container">
         <div className="row align-items-center no-gutters mb-4 mb-lg-5">
           <div className="col-xl-8 col-lg-7">
-            <img className="img-fluid mb-3 mb-lg-0" src={bgMaster} alt="" />
+            <img className="img-fluid mb-3 mb-lg-0" src="https://chop-chop.org/app/uploads/2019/05/logo-react-blue-1.svg" alt="" width="500px"/>
           </div>
+          {/* credit to chop-chop.org for this image */}
           <div className="col-xl-4 col-lg-5">
             <div className="featured-text text-center text-lg-left">
-              <h4>Shoreline</h4>
+              <h4>React JS To Do List</h4>
               <p className="text-black-50 mb-0">
-                Grayscale is open source and MIT licensed. This means you can
-                use it for any project - even commercial projects! Download it,
-                customize it, and publish your website!
+                A to do list front-end application built using the React JS framework
               </p>
             </div>
           </div>
@@ -73,16 +65,16 @@ const IndexPage = () => (
 
         <div className="row justify-content-center no-gutters mb-5 mb-lg-0">
           <div className="col-lg-6">
-            <img className="img-fluid" src={demoImage1} alt="" />
+            <img className="img-fluid" src="https://developer.okta.com/assets-jekyll/blog/node-token-auth/token-authentication-flow-69804c12334715c597128cd9273bca5e32ed516b62987902310efc54d1840a40.png" alt="" />
           </div>
+          {/* credit to Macy Ngan https://developer.okta.com/blog/2019/02/14/modern-token-authentication-in-node-with-express for this image */}
           <div className="col-lg-6">
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-left">
-                  <h4 className="text-white">Misty</h4>
+                  <h4 className="text-white">Bearer Auth</h4>
                   <p className="mb-0 text-white-50">
-                    An example of where you can put an image of a project, or
-                    anything else, along with a description.
+                    Full CRUD back-end application
                   </p>
                   <hr className="d-none d-lg-block mb-0 ml-0" />
                 </div>
@@ -99,11 +91,9 @@ const IndexPage = () => (
             <div className="bg-black text-center h-100 project">
               <div className="d-flex h-100">
                 <div className="project-text w-100 my-auto text-center text-lg-right">
-                  <h4 className="text-white">Mountains</h4>
+                  <h4 className="text-white">Final Project placeholder</h4>
                   <p className="mb-0 text-white-50">
-                    Another example of a project with its respective
-                    description. These sections work well responsively as well,
-                    try this theme on a small screen!
+                    this will contain a description of my final project
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>

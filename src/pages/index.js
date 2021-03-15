@@ -39,6 +39,7 @@ const IndexPage = () => (
             <h2 className="text-white mb-4">Software Engineer</h2>
             <p className="text-white-50">
               Software Developer, Certified Nursing Assistant<br />
+              Passionate about the the gym, cooking, hiking, and the environment<br />
               <a href="https://github.com/tiggerman120">My Github</a>
             </p>
           </div>
@@ -97,8 +98,8 @@ const IndexPage = () => (
                 <div className="project-text w-100 my-auto text-center text-lg-right">
                   <h4 className="text-white">React JS To Do List</h4>
                   <p className="mb-0 text-white-50">
-                    <a href="https://github.com/tiggerman120/react-webhooks">Github</a><br />
-                  A to-do list front-end application built using the React JS framework
+                    <a href="https://github.com/tiggerman120/redux-todoList">Github</a><br />
+                  A to-do list full-stack application built using the React JS framework and react-redux library with Material UI and Bootstrap for styling
                   </p>
                   <hr className="d-none d-lg-block mb-0 mr-0" />
                 </div>
